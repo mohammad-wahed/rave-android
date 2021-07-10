@@ -24,7 +24,7 @@ public class NullCardPaymentCallback implements CardPaymentCallback {
     }
 
     @Override
-    public void onSuccessful(String flwRef) {
+    public void onSuccessful(String flwRef, String responseAsJSONString) {
 
     }
 

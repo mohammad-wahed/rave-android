@@ -581,7 +581,7 @@ public class MainActivity
     }
 
     @Override
-    public void onSuccessful(String flwRef) {
+    public void onSuccessful(String flwRef, String responseAsJSONString) {
         Toast.makeText(this, "Transaction Successful", Toast.LENGTH_LONG).show();
 //        cardPayManager.saveCard(); // Save card if needed
     }
